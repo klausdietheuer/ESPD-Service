@@ -282,6 +282,20 @@
                     <contextPath>/espd/</contextPath>
                 </configuration>
             </plugin>
+            <!-- Klaus: Von mir für embedded Tomcat8 Support eingefügt -->
+            <plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>1.7.3</version>
+				<configuration>
+			    <container>
+					<containerId>tomcat8x</containerId>
+					<zipUrlInstaller>
+					    <url>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/8.5.9/tomcat-8.5.9.zip</url>
+					</zipUrlInstaller>
+			    </container>
+			  </configuration>
+			</plugin>
         </plugins>
         <pluginManagement>
             <plugins>
