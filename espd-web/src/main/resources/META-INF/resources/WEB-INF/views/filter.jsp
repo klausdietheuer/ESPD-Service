@@ -217,6 +217,7 @@
 							title="${i18n['tooltip_eo_ref_suppl']}"></span>
 					</div>
 				</div>
+				<%-- Klaus: PhaseOut entfernen 
 				<div class="col-sm-9 col-md-9">
 					<div style="background-color: #ffe0b3; padding-right: 20px;">&nbsp;
 						<ul class="fa-ul">
@@ -227,6 +228,7 @@
 						&nbsp;
 					</div>
 				</div>		
+				--%>
 			</div>
 			<div class="tab-content">
 				<div class="tab-pane" id="tab_ca">

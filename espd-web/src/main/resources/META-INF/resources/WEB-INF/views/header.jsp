@@ -36,11 +36,12 @@
             }
         });
     });
-</script>
+</script> 
 
 <div id="header">
-    <img id="banner-flag" class="hidden-print" src="${pageContext.request.contextPath}/static/img/logo.png" alt="European Commission logo"/>
-    <img id="banner-flag" class="visible-print" style="width: 114px; height: 80px;" src="${pageContext.request.contextPath}/static/img/logo.png" alt="European Commission logo"/>
+	<%-- Klaus SOL-Logo --%>
+    <img id="banner-flag" class="hidden-print" src="${pageContext.request.contextPath}/static/img/logo-sol.gif" alt="Sol Logo"/>
+    <img id="banner-flag" class="visible-print" style="" src="${pageContext.request.contextPath}/static/img/logo-sol.gif" alt="Sol Logo"/>
     <c:if test="${not empty applicationScope.deploymentEnvironment}">
 			<span id="banner-env-text">
 				<span id="environment">${applicationScope.deploymentEnvironment}</span>
@@ -51,7 +52,12 @@
     <span id="banner-image-title-fill" class="hidden-print"></span>
     <span id="banner-sub-title-text" class="hidden-print" data-i18n="app_subtitle"><s:message code="app_subtitle"/></span>
     <div id="top-lang-selector" class="hidden-print">
+    	<%-- Kl. Menu oben kd angepasst --%>
         <ul class="reset-list">
+            <%--<li><a target="_blank" href="http://www.staatsanzeiger-eservices.de/pdf/datenschutzerklaerung.pdf">${span18n["legal_notice"]}</a></li>
+            <li><a target="_blank" href="http://www.staatsanzeiger-eservices.de/pdf/datenschutzerklaerung.pdf">${span18n["cookies"]}</a></li>
+            <li><a target="_blank" href="http://www.staatsanzeiger-eservices.de/sol-bim.html">${span18n["contact"]}</a></li>
+            <li><a target="_blank" href="http://www.staatsanzeiger-eservices.de/sol-bw.html">${span18n["about"]}</a></li>--%>
             <li><a target="_blank" href="http://ec.europa.eu/growth/legal-notice/index_en.htm">${span18n["legal_notice"]}</a></li>
             <li><a target="_blank" href="http://ec.europa.eu/growth/cookies/index_en.htm">${span18n["cookies"]}</a></li>
             <li><a target="_blank" href="${pageContext.request.contextPath}/contact">${span18n["contact"]}</a></li>

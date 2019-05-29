@@ -72,7 +72,8 @@
 
 <div class="row">
     <strong class="col-md-8 col-md-offset-6">
-        <span class="countdown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you do not take any action, your session will expire in </span>
+        <%--Klaus <span class="countdown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you do not take any action, your session will expire in </span>--%>
+        <span class="countdown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wenn Sie inaktiv bleiben, wird Ihre Sitzung ungültig in: </span>
         <span class="countdown" id="countdowntimer">60:00 </span>
 	</strong>
 </div>

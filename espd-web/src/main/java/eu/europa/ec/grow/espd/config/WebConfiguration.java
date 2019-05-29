@@ -84,7 +84,7 @@ class WebConfiguration extends WebMvcConfigurerAdapter {
     LocaleResolver localeResolver() {
         CookieLocaleResolver resolver = new CookieLocaleResolver();
         resolver.setCookieName("ESPD_LOCALE");
-        resolver.setDefaultLocale(Locale.ENGLISH);
+        resolver.setDefaultLocale(Locale.GERMAN);/** Klaus: vorher English**/
         return resolver;
     }
 

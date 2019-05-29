@@ -26,6 +26,7 @@
   ~
   --%>
 <div id="breadbar" class="hidden-print">
+	<%--
     <s:eval var="breadcrumbAsMap" scope="page" expression="@espdConfiguration.breadcrumbAsMap"/>
     <c:if test="${not empty breadcrumbAsMap}">
         <ul class="breadcrumbs">
@@ -46,4 +47,5 @@
             </c:forEach>
         </ul>
     </c:if>
+    --%>
 </div>

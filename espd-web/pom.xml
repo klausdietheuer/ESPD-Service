@@ -282,7 +282,7 @@
                     <contextPath>/espd/</contextPath>
                 </configuration>
             </plugin>
-            <!-- Klaus: Von mir für embedded Tomcat8 Support eingefügt -->
+            <!-- Klaus: Von mir für embedded Tomcat8 Support eingefügt
             <plugin>
 				<groupId>org.codehaus.cargo</groupId>
 				<artifactId>cargo-maven2-plugin</artifactId>
@@ -295,7 +295,7 @@
 					</zipUrlInstaller>
 			    </container>
 			  </configuration>
-			</plugin>
+			</plugin> -->
         </plugins>
         <pluginManagement>
             <plugins>
